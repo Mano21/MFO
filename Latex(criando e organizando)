@@ -1,46 +1,46 @@
+comandos latex
+
 \documentclass[12pt]{article}
+
 \usepackage[utf8]{inputenc}
+
 \usepackage[T1]{fontenc}
-\usepackage[portuguese]{babel}
-\usepackage{lmodern,color}
-\usepackage{graphicx}
+
+\usepackage[portuguese]{babel} = lingua portuguesa, acentuação
+
+\usepackage{lmodern,color,comment} = mexer com coloração,comentarios e 
+linguagem
+
+\usepackage{graphicx} = colcoar graficos e imagens
 
 
-\begin{document}
-\begin{center}
-{\Huge Hello World !!!}
-\end{center}
+\begin{document} = inicio do documento
+\end{document} = fim do documento
 
-\section{Introdução}
+--> criando um bash
+echo '#1!/bin/bash' >> meu-primeiro-bash = criando um bash
 
-\scshape{Style Example: scshape}
+echo clear >> meu-primeiro-bash = add o limpar a tela
 
-\bfseries{Style Example: bfseries}
+cat meu-primeiro-bash = ver o quem tem internamente
 
-\section{Desenvolvimento}
 
-\begin{figure}[ht!]
-\centering
-\includegraphics[scale = 0.7]{figuras/depositphotos_45216515-Geek-nerd-boy.jpg}
-\caption{Nerd} 
-\label{Figura Nerd}
-\end{figure}
+echo 'pdflatex aula\ 19-08.tex' >> meu-primeiro-bash  = tranferindo o .tex para meu-primeiro-bash
 
-\Large
-\noindent{Arca de Noé}\\
-\\
-\textcolor{red}{Sete em cores,de repente} \\
-\textcolor{blue}
-{O arco-íris se desata}\\
-Na água límpida e contente\\
-Do ribeirinho da mata\\
-O sol, ao véu transparente\\
-Da chuva de ouro e de prata\\
-Resplandece resplendente\\
-No céu, no chão, na cascata\\
+mv meu-primeiro-bash meu-primeiro-bash.sh = renomeando o arquivo
 
-\section{Conclusão}
+chmod +x meu-primeiro-bash.sh = implementando o .sh
 
-Puxa como é Legal ser Nerd....veja a figura \ref{Figura Nerd}
+./meu-primeiro-bash.sh  = executando
 
-\end{document}
+echo clear >> meu-primeiro-bash.sh = add mais um limpar a tela
+
+cat meu-primeiro-bash.sh = mostrando conteudo
+
+
+
+
+
+
+
+
