@@ -1,0 +1,46 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[portuguese]{babel}
+\usepackage{lmodern,color}
+\usepackage{graphicx}
+
+
+\begin{document}
+\begin{center}
+{\Huge Hello World !!!}
+\end{center}
+
+\section{Introdução}
+
+\scshape{Style Example: scshape}
+
+\bfseries{Style Example: bfseries}
+
+\section{Desenvolvimento}
+
+\begin{figure}[ht!]
+\centering
+\includegraphics[scale = 0.7]{figuras/depositphotos_45216515-Geek-nerd-boy.jpg}
+\caption{Nerd} 
+\label{Figura Nerd}
+\end{figure}
+
+\Large
+\noindent{Arca de Noé}\\
+\\
+\textcolor{red}{Sete em cores,de repente} \\
+\textcolor{blue}
+{O arco-íris se desata}\\
+Na água límpida e contente\\
+Do ribeirinho da mata\\
+O sol, ao véu transparente\\
+Da chuva de ouro e de prata\\
+Resplandece resplendente\\
+No céu, no chão, na cascata\\
+
+\section{Conclusão}
+
+Puxa como é Legal ser Nerd....veja a figura \ref{Figura Nerd}
+
+\end{document}
