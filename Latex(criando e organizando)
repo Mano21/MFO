@@ -38,9 +38,22 @@ echo clear >> meu-primeiro-bash.sh = add mais um limpar a tela
 cat meu-primeiro-bash.sh = mostrando conteudo
 
 
+criando tabelas
+
+\begin{tabular}{ l | c || r }
+  1 & 2 & 3 \\
+  4 & 5 & 6 \\
+  7 & 8 & 9 \\
+\end{tabular}
 
 
+l = left
+c = center
+r = right
 
+{\small {\bf BRUNNO}}bem pequeno e em negrito.
 
+{\tiny} bem menor que small
 
+vskip - pular linha 
 
