@@ -1,0 +1,21 @@
+especificações Linguagem Z
+
+==> Simbolo ' identifica o estado final após alteração
+
+==> valores de entrada -> são decorados com ?
+
+==> valores de saída são decorados com !
+
+==> como convenção, o simbolo delta é utilizado para abreviar a escrita de
+operações em que há mudança de estado
+
+
+
+ATIVIDADE COM Z:
+
+A)implementação .tex
+(Dupla) - N1-2
+
+
+B)Apresentação e Defesa do Modelo
+N2-2 ==> 21 de setembro apresentação
